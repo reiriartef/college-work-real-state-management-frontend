@@ -101,7 +101,7 @@ const PagosScreen = () => {
             type="text"
             value={searchValue}
             onChange={(e) => setSearchValue(e.target.value)}
-            placeholder={`Ingrese ${selectedOption.split(' ')[2].toLowerCase() == 'fecha' ? 'una fecha en formato YYYY-MM-DD' : 'un metodo de pago'}`}
+            placeholder={`Ingrese ${selectedOption.split(' ')[2].toLowerCase() == 'fecha' ? 'una fecha en formato AAAA-MM-DD' : 'un metodo de pago'}`}
             className="w-full px-4 py-2 border rounded-lg"
           />
           <button

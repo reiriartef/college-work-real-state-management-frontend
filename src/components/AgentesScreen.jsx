@@ -25,7 +25,7 @@ const AgentesScreen = () => {
       const data = await clientesBy(searchValue, 'apellido');
       setData(data);
     }
-    if (selectedOption === 'Mostrar por Tipo') {
+    if (selectedOption === 'Mostrar por Especialidad') {
       const data = await clientesBy(searchValue, 'especializacion');
       setData(data);
     }
